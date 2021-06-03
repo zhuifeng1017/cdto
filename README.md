@@ -8,8 +8,8 @@
 2. 按住command键，选中`code to.app`拖到toolbar 
    
 
-![install code](/Users/ZhaoMin/Project/cdto/res/image-20210603174702784.png)
+![install code](res/image-20210603174702784.png)
 
 
 
-![image-20210603175033278](/Users/ZhaoMin/Project/cdto/res/image-20210603175033278.png)
+![image-20210603175033278](res/image-20210603175033278.png)
