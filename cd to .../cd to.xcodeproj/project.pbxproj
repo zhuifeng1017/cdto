@@ -13,7 +13,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		699EB3B9234DBA0C00CC2315 /* cd to.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cd to.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		699EB3B9234DBA0C00CC2315 /* code to.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "code to.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		699EB3BF234DBA0D00CC2315 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		699EB3C4234DBA0D00CC2315 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		699EB3C5234DBA0D00CC2315 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -45,7 +45,7 @@
 		699EB3BA234DBA0C00CC2315 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				699EB3B9234DBA0C00CC2315 /* cd to.app */,
+				699EB3B9234DBA0C00CC2315 /* code to.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,7 +81,7 @@
 			);
 			name = "cd to";
 			productName = "cd to ...";
-			productReference = 699EB3B9234DBA0C00CC2315 /* cd to.app */;
+			productReference = 699EB3B9234DBA0C00CC2315 /* code to.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -257,7 +257,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 2;
-				DEVELOPMENT_TEAM = VURRGRYW45;
+				DEVELOPMENT_TEAM = 8QLTU3QPBK;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "cd to .../Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -265,8 +265,8 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 3.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "name.tuley.jay.cd-to";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.min.tools.cd-to";
+				PRODUCT_NAME = "code to";
 			};
 			name = Debug;
 		};
@@ -278,7 +278,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 2;
-				DEVELOPMENT_TEAM = VURRGRYW45;
+				DEVELOPMENT_TEAM = 8QLTU3QPBK;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "cd to .../Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -286,8 +286,8 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 3.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "name.tuley.jay.cd-to";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.min.tools.cd-to";
+				PRODUCT_NAME = "code to";
 			};
 			name = Release;
 		};
