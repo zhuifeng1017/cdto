@@ -33,7 +33,8 @@ void lauchCode(NSString *path){
 void lauchSubl(NSString *path){
     NSTask *task = [[NSTask alloc] init];
     [task setLaunchPath:@"/bin/bash"];
-    [task setArguments:@[@"/usr/local/bin/subl", @"-a", path]];
+    NSString *str = [NSString stringWithFormat:@"%@%@", @"'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -a ", path];
+    [task setArguments:@[@"-c", str]];
     [task launch];
 }
 
@@ -44,6 +45,8 @@ int main(int argc, const char * argv[]) {
 
         NSString* fileUrl = [target URL];
         NSURL* url = [NSURL URLWithString:fileUrl];
-        lauchCode([url path]);
+        NSLog(@"url: %@", url);
+        lauchSubl([url path]);
+//        lauchCode([url path]);
     }
 }
